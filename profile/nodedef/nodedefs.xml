@@ -11,23 +11,7 @@
             </accepts>
         </cmds>
     </nodeDef>
-    <nodeDef id="MQSW" nls="SWITCH">
-        <editors />
-        <sts>
-            <st id="ST" editor="ONOFF" />
-        </sts>
-        <cmds>
-            <sends>
-	    	<cmd id="DON" />
-	    	<cmd id="DOF" />
-            </sends>
-            <accepts>
-                <cmd id="QUERY" />
-                <cmd id="DON" />
-                <cmd id="DOF" />
-            </accepts>
-        </cmds>
-    </nodeDef>
+ 
     <nodeDef id="MQSENS" nls="SENSOR">
         <editors />
         <sts>
@@ -59,78 +43,6 @@
                     <p id="D" editor="SECOND" />
                     <p id="F" editor="SECOND" />
                 </cmd>
-            </accepts>
-        </cmds>
-    </nodeDef>
-    <nodeDef id="MQDHT" nls="DHT">
-        <editors />
-        <sts>
-            <st id="ST" editor="BOOL" />
-            <st id="CLITEMP" editor="TEMPF" />
-            <st id="CLIHUM" editor="HUM" />
-        </sts>
-	<cmds>
-	    <sends />
-            <accepts>
-                <cmd id="QUERY" />
-            </accepts>
-        </cmds>
-    </nodeDef>
-    <nodeDef id="MQBME" nls="BME">
-        <editors />
-        <sts>
-            <st id="ST" editor="BOOL" />
-            <st id="CLITEMP" editor="TEMPF" />
-            <st id="CLIHUM" editor="HUM" />
-            <st id="BARPRES" editor="PRESS" />
-        </sts>
-        <cmds>
-            <sends />
-            <accepts>
-                <cmd id="QUERY" />
-            </accepts>
-        </cmds>
-    </nodeDef>
-    <nodeDef id="MQHCSR" nls="SR04">
-        <editors />
-        <sts>
-            <st id="ST" editor="BOOL" />
-            <st id="DISTANC" editor="DIST" />
-        </sts>
-        <cmds>
-            <sends />
-            <accepts>
-                <cmd id="QUERY" />
-            </accepts>
-        </cmds>
-    </nodeDef>
-    <nodeDef id="MQANAL" nls="ANALOG">
-        <editors />
-        <sts>
-            <st id="ST" editor="BOOL" />
-            <st id="GPV" editor="VALUE" />
-        </sts>
-        <cmds>
-            <sends />
-            <accepts>
-                <cmd id="QUERY" />
-            </accepts>
-        </cmds>
-    </nodeDef>
-    <nodeDef id="MQS31" nls="S31">
-        <editors />
-        <sts>
-            <st id="ST" editor="BOOL" />
-            <st id="CC" editor="CURRENT" />
-            <st id="CPW" editor="CURPOW" />
-            <st id="CV" editor="VOLT" />
-            <st id="PF" editor="FACTOR" />
-            <st id="TPW" editor="TOTPOW" />
-        </sts>
-        <cmds>
-            <sends />
-            <accepts>
-                <cmd id="QUERY" />
             </accepts>
         </cmds>
     </nodeDef>
