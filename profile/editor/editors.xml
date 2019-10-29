@@ -43,5 +43,5 @@
     </editor>
     <editor id="TOTPOW">
         <range uom="22" min="0" prec="3" />
-    </editor>
+    </editor> 
 </editors>
