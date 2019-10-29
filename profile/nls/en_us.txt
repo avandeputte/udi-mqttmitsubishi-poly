@@ -1,16 +1,9 @@
 # controller
-ND-MQCTRL-NAME = MQTT Controller
+ND-MQCTRL-NAME = MQTT Mitsubishi Controller
 ND-MQCTRL-ICON = GenericCtl
 CMD-CTRL-DISCOVER-NAME = Re-Discover
 ST-CTRL-ST-NAME = NodeServer Online
 
-# switch
-ND-MQSW-NAME = MQTT Switch
-ND-MQSW-ICON = GenericRsp
-ST-SWITCH-ST-NAME = Status
-
-CMD-SWITCH-DON-NAME = On
-CMD-SWITCH-DOF-NAME = Off
 
 # sensor
 ND-MQSENS-NAME = MQTT Sensor
@@ -38,40 +31,3 @@ CMDP-F-NAME = Flash
 CMDP-D-NAME = Transition
 
 PGM-CMD-SETLED-FMT = /R// Red ${v}/ /G// Green ${v}/ /B// Blue ${v}/ /I// Brightness ${v}/ /D// in ${v}/ /F//, flash for ${v}/
-
-# am2301
-ND-MQDHT-NAME = MQTT AM2301
-ND-MQDHT-ICON = TempSensor
-ST-DHT-CLITEMP-NAME = Temperature
-ST-DHT-CLIHUM-NAME = Humidity
-ST-DHT-ST-NAME = Status
-
-# bme280
-ND-MQBME-NAME = MQTT BME
-ND-MQBME-ICON = TempSensor
-ST-BME-CLITEMP-NAME = Temperature
-ST-BME-CLIHUM-NAME = Humidity
-ST-BME-BARPRES-Name = Pressure
-ST-BME-ST-NAME = Status
-
-# SR04
-ND-MQHCSR-NAME = MQTT AM2301
-ND-MQHCSR-ICON = Input
-ST-SR04-DISTANC-NAME = Distance
-ST-SR04-ST-NAME = Status
-
-# analog
-ND-MQANAL-NAME = MQTT Analog
-ND-MQANAL-ICON = Input
-ST-ANALOG-GPV-NAME = Analog Input
-ST-ANALOG-ST-NAME = Status
-
-# s31
-ND-MQS31-NAME = MQTT S31 Energy
-ND-MQS31-ICON = EnergyMonitor
-ST-S31-CURRENT-NAME = Current
-ST-S31-CURPOW-NAME = Current Power
-ST-S31-VOLT-NAME = Voltage
-ST-S31-FACTOR-NAME = Power Factor
-ST-S31-TOTPOW-NAME = Total Power
-ST-S31-ST-NAME = Status
