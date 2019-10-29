@@ -1,5 +1,5 @@
 
-# MQTT Nodeserver for Sonoff Devices
+# MQTT Nodeserver for Mitsubishi Heatpumps
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/exking/udi-mqtt-poly/blob/master/LICENSE)
 
